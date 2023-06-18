@@ -1,0 +1,59 @@
+/* color palette from <https://github.com/vuejs/theme> */
+
+:root {
+    --primary: #1C293D;
+    --secondary: #B4B4B4;
+    --lines: #E9E9E9;
+    --white: #FFFFFF;
+    --accent-dark: #47B1E6;
+    --accent-light: #E4F0FA;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    src: url("./fonts/sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    font-weight: 500;
+    src: url("./fonts/sf-pro-display-cufonfonts/SFPRODISPLAYMEDIUM.OTF") format("opentype");
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: normal;
+}
+
+body {
+    min-height: 100vh;
+    color: var(--primary);
+    transition: color 0.5s, background-color 0.5s;
+    line-height: 1.6;
+    font-family: 'SF Pro Display';
+    font-size: 16px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #E8E8E8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
